@@ -2,7 +2,8 @@
 <html>
 
   <head></head>
-  <body onload="execDaumPostcode()">
+  <body onload="
+                ()">
 
   <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
 
@@ -36,7 +37,7 @@
 
     var element_layer = document.getElementById('layer');
 
-    function sample2_execDaumPostcode() {
+    function execDaumPostcode() {
       new daum.Postcode({
         oncomplete: function(data) {
           // 검색결과 항목을 클릭했을 때 실행할 코드
